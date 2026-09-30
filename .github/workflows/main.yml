@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: "定时创建快照"
-        uses: seatonjiang/lighthouse-snapshot-action@main
+        uses: coppea/lighthouse-snapshot-action@main
         with:
           secret_id: ${{ secrets.TENCENTCLOUD_SECRETID }}
           secret_key: ${{ secrets.TENCENTCLOUD_SECRETKEY }}
